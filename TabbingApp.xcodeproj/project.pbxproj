@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E5DEC02B2E8970005E6445 /* TabbingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E5DEBF2B2E8970005E6445 /* TabbingAppApp.swift */; };
+		30E5DEC22B2E8970005E6445 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E5DEC12B2E8970005E6445 /* ContentView.swift */; };
+		30E5DEC42B2E8972005E6445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E5DEC32B2E8972005E6445 /* Assets.xcassets */; };
+		30E5DEC72B2E8972005E6445 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E5DEC62B2E8972005E6445 /* Preview Assets.xcassets */; };
+		30E5DED12B2E8973005E6445 /* TabbingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E5DED02B2E8973005E6445 /* TabbingAppTests.swift */; };
+		30E5DEDB2B2E8973005E6445 /* TabbingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E5DEDA2B2E8973005E6445 /* TabbingAppUITests.swift */; };
+		30E5DEDD2B2E8973005E6445 /* TabbingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E5DEDC2B2E8973005E6445 /* TabbingAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E5DECD2B2E8973005E6445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E5DEB42B2E8970005E6445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E5DEBB2B2E8970005E6445;
+			remoteInfo = TabbingApp;
+		};
+		30E5DED72B2E8973005E6445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E5DEB42B2E8970005E6445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E5DEBB2B2E8970005E6445;
+			remoteInfo = TabbingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30E5DEBC2B2E8970005E6445 /* TabbingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E5DEBF2B2E8970005E6445 /* TabbingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbingAppApp.swift; sourceTree = "<group>"; };
+		30E5DEC12B2E8970005E6445 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30E5DEC32B2E8972005E6445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E5DEC62B2E8972005E6445 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30E5DECC2B2E8973005E6445 /* TabbingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E5DED02B2E8973005E6445 /* TabbingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbingAppTests.swift; sourceTree = "<group>"; };
+		30E5DED62B2E8973005E6445 /* TabbingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E5DEDA2B2E8973005E6445 /* TabbingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbingAppUITests.swift; sourceTree = "<group>"; };
+		30E5DEDC2B2E8973005E6445 /* TabbingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E5DEB92B2E8970005E6445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E5DEC92B2E8973005E6445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E5DED32B2E8973005E6445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E5DEB32B2E8970005E6445 = {
+			isa = PBXGroup;
+			children = (
+				30E5DEBE2B2E8970005E6445 /* TabbingApp */,
+				30E5DECF2B2E8973005E6445 /* TabbingAppTests */,
+				30E5DED92B2E8973005E6445 /* TabbingAppUITests */,
+				30E5DEBD2B2E8970005E6445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E5DEBD2B2E8970005E6445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E5DEBC2B2E8970005E6445 /* TabbingApp.app */,
+				30E5DECC2B2E8973005E6445 /* TabbingAppTests.xctest */,
+				30E5DED62B2E8973005E6445 /* TabbingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E5DEBE2B2E8970005E6445 /* TabbingApp */ = {
+			isa = PBXGroup;
+			children = (
+				30E5DEBF2B2E8970005E6445 /* TabbingAppApp.swift */,
+				30E5DEC12B2E8970005E6445 /* ContentView.swift */,
+				30E5DEC32B2E8972005E6445 /* Assets.xcassets */,
+				30E5DEC52B2E8972005E6445 /* Preview Content */,
+			);
+			path = TabbingApp;
+			sourceTree = "<group>";
+		};
+		30E5DEC52B2E8972005E6445 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30E5DEC62B2E8972005E6445 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30E5DECF2B2E8973005E6445 /* TabbingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E5DED02B2E8973005E6445 /* TabbingAppTests.swift */,
+			);
+			path = TabbingAppTests;
+			sourceTree = "<group>";
+		};
+		30E5DED92B2E8973005E6445 /* TabbingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30E5DEDA2B2E8973005E6445 /* TabbingAppUITests.swift */,
+				30E5DEDC2B2E8973005E6445 /* TabbingAppUITestsLaunchTests.swift */,
+			);
+			path = TabbingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E5DEBB2B2E8970005E6445 /* TabbingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E5DEE02B2E8973005E6445 /* Build configuration list for PBXNativeTarget "TabbingApp" */;
+			buildPhases = (
+				30E5DEB82B2E8970005E6445 /* Sources */,
+				30E5DEB92B2E8970005E6445 /* Frameworks */,
+				30E5DEBA2B2E8970005E6445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbingApp;
+			productName = TabbingApp;
+			productReference = 30E5DEBC2B2E8970005E6445 /* TabbingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E5DECB2B2E8973005E6445 /* TabbingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E5DEE32B2E8973005E6445 /* Build configuration list for PBXNativeTarget "TabbingAppTests" */;
+			buildPhases = (
+				30E5DEC82B2E8973005E6445 /* Sources */,
+				30E5DEC92B2E8973005E6445 /* Frameworks */,
+				30E5DECA2B2E8973005E6445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E5DECE2B2E8973005E6445 /* PBXTargetDependency */,
+			);
+			name = TabbingAppTests;
+			productName = TabbingAppTests;
+			productReference = 30E5DECC2B2E8973005E6445 /* TabbingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30E5DED52B2E8973005E6445 /* TabbingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E5DEE62B2E8973005E6445 /* Build configuration list for PBXNativeTarget "TabbingAppUITests" */;
+			buildPhases = (
+				30E5DED22B2E8973005E6445 /* Sources */,
+				30E5DED32B2E8973005E6445 /* Frameworks */,
+				30E5DED42B2E8973005E6445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E5DED82B2E8973005E6445 /* PBXTargetDependency */,
+			);
+			name = TabbingAppUITests;
+			productName = TabbingAppUITests;
+			productReference = 30E5DED62B2E8973005E6445 /* TabbingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E5DEB42B2E8970005E6445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					30E5DEBB2B2E8970005E6445 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					30E5DECB2B2E8973005E6445 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 30E5DEBB2B2E8970005E6445;
+					};
+					30E5DED52B2E8973005E6445 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 30E5DEBB2B2E8970005E6445;
+					};
+				};
+			};
+			buildConfigurationList = 30E5DEB72B2E8970005E6445 /* Build configuration list for PBXProject "TabbingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E5DEB32B2E8970005E6445;
+			productRefGroup = 30E5DEBD2B2E8970005E6445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E5DEBB2B2E8970005E6445 /* TabbingApp */,
+				30E5DECB2B2E8973005E6445 /* TabbingAppTests */,
+				30E5DED52B2E8973005E6445 /* TabbingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E5DEBA2B2E8970005E6445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E5DEC72B2E8972005E6445 /* Preview Assets.xcassets in Resources */,
+				30E5DEC42B2E8972005E6445 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E5DECA2B2E8973005E6445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E5DED42B2E8973005E6445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E5DEB82B2E8970005E6445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E5DEC22B2E8970005E6445 /* ContentView.swift in Sources */,
+				30E5DEC02B2E8970005E6445 /* TabbingAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E5DEC82B2E8973005E6445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E5DED12B2E8973005E6445 /* TabbingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E5DED22B2E8973005E6445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E5DEDD2B2E8973005E6445 /* TabbingAppUITestsLaunchTests.swift in Sources */,
+				30E5DEDB2B2E8973005E6445 /* TabbingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E5DECE2B2E8973005E6445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E5DEBB2B2E8970005E6445 /* TabbingApp */;
+			targetProxy = 30E5DECD2B2E8973005E6445 /* PBXContainerItemProxy */;
+		};
+		30E5DED82B2E8973005E6445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E5DEBB2B2E8970005E6445 /* TabbingApp */;
+			targetProxy = 30E5DED72B2E8973005E6445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30E5DEDE2B2E8973005E6445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30E5DEDF2B2E8973005E6445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E5DEE12B2E8973005E6445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabbingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NX45SC475G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-BaptistChristesen.TabbingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30E5DEE22B2E8973005E6445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabbingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NX45SC475G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-BaptistChristesen.TabbingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30E5DEE42B2E8973005E6445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX45SC475G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-BaptistChristesen.TabbingAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabbingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabbingApp";
+			};
+			name = Debug;
+		};
+		30E5DEE52B2E8973005E6445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX45SC475G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-BaptistChristesen.TabbingAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabbingApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabbingApp";
+			};
+			name = Release;
+		};
+		30E5DEE72B2E8973005E6445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX45SC475G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-BaptistChristesen.TabbingAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabbingApp;
+			};
+			name = Debug;
+		};
+		30E5DEE82B2E8973005E6445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NX45SC475G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-BaptistChristesen.TabbingAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabbingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E5DEB72B2E8970005E6445 /* Build configuration list for PBXProject "TabbingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E5DEDE2B2E8973005E6445 /* Debug */,
+				30E5DEDF2B2E8973005E6445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E5DEE02B2E8973005E6445 /* Build configuration list for PBXNativeTarget "TabbingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E5DEE12B2E8973005E6445 /* Debug */,
+				30E5DEE22B2E8973005E6445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E5DEE32B2E8973005E6445 /* Build configuration list for PBXNativeTarget "TabbingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E5DEE42B2E8973005E6445 /* Debug */,
+				30E5DEE52B2E8973005E6445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E5DEE62B2E8973005E6445 /* Build configuration list for PBXNativeTarget "TabbingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E5DEE72B2E8973005E6445 /* Debug */,
+				30E5DEE82B2E8973005E6445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E5DEB42B2E8970005E6445 /* Project object */;
+}
